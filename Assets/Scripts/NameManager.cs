@@ -5,7 +5,7 @@ using UnityEngine;
 public class NameManager : MonoBehaviour
 {
     public static NameManager Instance;
-    public string playerName;
+    private string playerName;
 
     private void Awake()
     {
